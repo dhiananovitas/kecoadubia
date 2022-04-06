@@ -1,0 +1,40 @@
+@media screen and (min-width: 320px) {	
+	.header-section ul li a{
+		color:#e6dfcf;
+	}
+	.section-bgimg-3{
+		background: #e6dfcf;
+	}
+
+	.p-why{
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+	table caption {
+		padding: .5em 0;
+	}
+	
+	table.dataTable th,
+	table.dataTable td {
+	  white-space: nowrap;
+	}
+	.table-header{
+		padding-top: 40px;
+	}
+	
+}
+@media screen and (min-width: 1024px) {	
+	.logo-coro{
+		width: 40%;	
+	}
+	.header-section .logo.mar-4{
+		margin-top: 13px;
+	}
+
+	.ce-feature-box-19{
+		height: 500px !important;
+		padding: 24px;
+	}
+}
