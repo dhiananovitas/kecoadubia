@@ -23,6 +23,59 @@
 	.table-header{
 		padding-top: 40px;
 	}
+
+	.float{
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		bottom: 75px;
+		right: 16px;
+		background-color: #25d366;
+		color: #FFF;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		box-shadow: 2px 2px 3px #999;
+		z-index: 100;
+	}
+	.my-float{
+		padding-top: 10px;
+	}
+
+	.tokopedia {
+		width: 50px;
+		height: 50px;
+		opacity: 1;
+		position: fixed;
+		bottom: 135px;
+		right: 16px;
+		text-indent: -9999px;
+		background: #FFF url(../images/tokped.png) no-repeat 10px 6px;
+		z-index: 999;
+		border-radius: 100px;
+	}
+
+	.dubia-roach{width: 100%;padding-top: 40px;}
+
+	.header-section ul li:hover > a, .header-section ul li.active > a{
+		color: #588886 !important;
+	}
+
+	.header-section ul li a{
+		color: #ebd0c3 !important;
+	}
+
+	.ce-feature-box-38-main .ce-feature-box-38.style-2{
+		padding: 0px !important;
+		height: 800px !important;
+	}
+
+	.banner-article{width: 100%;}
+	.container-articles{padding: 40px 50px 50px 50px;}
+
+	.header-section.style1{
+		background-color: #fff !important;
+	}
 	
 }
 @media screen and (min-width: 1024px) {	
@@ -36,5 +89,10 @@
 	.ce-feature-box-19{
 		height: 500px !important;
 		padding: 24px;
+	}
+
+	.p-why{
+		width: 90%;
+		text-align: justify;
 	}
 }
