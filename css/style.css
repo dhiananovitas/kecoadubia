@@ -71,7 +71,9 @@
 	}
 
 	.banner-article{width: 100%;}
+	.banner-img-article{width: 30%;}
 	.container-articles{padding: 40px 50px 50px 50px;}
+	.judul-articles{width: 60%;display: block; margin: 0 auto;}
 
 	.header-section.style1{
 		background-color: #fff !important;
@@ -95,4 +97,11 @@
 		width: 90%;
 		text-align: justify;
 	}
+
+	.articles-flex{
+		display: flex;
+		padding-top: 50px;
+	}
+
+	.articles-flex-content{width: 60%;}
 }
